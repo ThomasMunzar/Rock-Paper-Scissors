@@ -1,11 +1,12 @@
 var wins = 0;
 var losses = 0;
 var ties = 0;
+alert(wins, losses, ties)
 
 
 var rockPaperScissor = ['rock', 'paper', 'scissor'];
 var user = window.prompt('select rock, paper or scissor');
-var computer =math.floor(math.random(rockPaperScissor.length));
+var computer =Math.floor(Math.random()*rockPaperScissor.length);
 
 if (user === computer) {
     window.alert('it is a tie!')
